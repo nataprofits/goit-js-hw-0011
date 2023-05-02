@@ -10,7 +10,7 @@ let page = 1;
 let lightBox = new SimpleLightbox('.photo-card-link', {
   captions: true,
   captionsData: 'alt',
-  captionDelay: 250,
+  captionDelay: 300,
 });
 
 let options = {
