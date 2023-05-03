@@ -9,9 +9,11 @@ body {
 }
 .container {
   width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: solid 1px green
+
+  /* border: solid 1px green */
 }
 img {
   width: 100%;
@@ -39,6 +41,8 @@ justify-content: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .photo-card {
